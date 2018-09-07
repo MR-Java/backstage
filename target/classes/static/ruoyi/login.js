@@ -3,6 +3,7 @@ $(function() {
     validateRule();
     $(".i-checks").iCheck({checkboxClass:"icheckbox_square-green-login"});
 	$('.imgcode').click(function() {
+	    debugger;
 		var url = ctx + "captcha/captchaImage?type=" + captchaType + "&s=" + Math.random();
 		$(".imgcode").attr("src", url);
 	});
