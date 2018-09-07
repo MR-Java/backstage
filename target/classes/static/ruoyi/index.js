@@ -2,6 +2,7 @@
  * 菜单处理
  */
 $(function() {
+
     // MetsiMenu
     $('#side-menu').metisMenu();
 
